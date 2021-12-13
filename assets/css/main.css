@@ -1218,6 +1218,13 @@ input, select, textarea {
 				padding: 2rem 1rem;
 			}
 
+            #header .logo .iconsvg {
+                /* margin-left: .25em;
+                margin-top: .75em; */
+                width: 3em;
+                /* filter: invert(100%);*/
+            }
+
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1230,30 +1237,30 @@ input, select, textarea {
 
 /* Header */
 
-	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		max-width: 100%;
-		text-align: center;
-	}
+        #header {
+            display: -moz-flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+            display: flex;
+            -moz-flex-direction: column;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -moz-align-items: center;
+            -webkit-align-items: center;
+            -ms-align-items: center;
+            align-items: center;
+            -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+            -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+            -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+            transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+            background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+            background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+            background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+            background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+            max-width: 100%;
+            text-align: center;
+        }
 
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
@@ -1293,6 +1300,13 @@ input, select, textarea {
 
         #header .logo .icon:before {
             font-size: 2rem;
+        }
+
+        #header .logo .iconsvg {
+            margin-left: .25em;
+            margin-top: .75em;
+            width: 3.5em;
+            filter: invert(100%);
         }
 
 		#header .content {
@@ -1428,10 +1442,10 @@ input, select, textarea {
 				margin-top: 2rem;
 			}
 
-				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
+            #header > *:before {
+                top: calc(-2rem - 1px);
+                height: calc(2rem + 1px);
+            }
 
 			#header .logo {
 				width: 4.75rem;
@@ -1439,9 +1453,9 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
+            #header .logo .icon:before {
+                font-size: 1.75rem;
+            }
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
