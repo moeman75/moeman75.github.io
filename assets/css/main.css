@@ -116,14 +116,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			html {
-				font-size: 11pt;
-			}
-
-		}
-
 		@media screen and (max-width: 360px) {
 
 			html {
@@ -220,6 +212,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
+
+        html {
+            font-size: 11pt;
+        }
 
 		h1 {
 			font-size: 1.75rem;
@@ -1218,13 +1214,6 @@ input, select, textarea {
 				padding: 2rem 1rem;
 			}
 
-            #header .logo .iconsvg {
-                /* margin-left: .25em;
-                margin-top: .75em; */
-                width: 3em;
-                /* filter: invert(100%);*/
-            }
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1457,6 +1446,13 @@ input, select, textarea {
                 font-size: 1.75rem;
             }
 
+            #header .logo .iconsvg {
+                /* margin-left: .25em;
+                margin-top: .75em; */
+                width: 3em;
+                /* filter: invert(100%);*/
+            }
+
 			#header .content .inner {
 				padding: 2.5rem 1rem;
 			}
@@ -1608,9 +1604,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
-			}
+                #main article {
+                    padding: 3.5rem 2rem 0.5rem 2rem ;
+                }
 
 				#main article .close:before {
 					top: 0.875rem;
@@ -1619,6 +1615,13 @@ input, select, textarea {
 					height: 2.25rem;
 					background-size: 14px 14px;
 				}
+
+                #header .logo .iconsvg {
+                    /* margin-left: .25em;
+                    margin-top: .75em; */
+                    width: 3em;
+                    /* filter: invert(100%);*/
+                }
 
 		}
 
