@@ -211,24 +211,6 @@ input, select, textarea {
 		font-size: 0.6rem;
 	}
 
-	@media screen and (max-width: 736px) {
-
-        html {
-            font-size: 11pt;
-        }
-
-		h1 {
-			font-size: 1.75rem;
-			line-height: 1.4;
-		}
-
-		h2 {
-			font-size: 1.25em;
-			line-height: 1.5;
-		}
-
-	}
-
 	sub {
 		font-size: 0.8rem;
 		position: relative;
@@ -692,14 +674,6 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
-
-		@media screen and (max-width: 736px) {
-
-			.image.main {
-				margin: 2rem 0;
-			}
-
-		}
 
 		@media screen and (max-width: 480px) {
 
@@ -1208,14 +1182,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#wrapper {
-				padding: 2rem 1rem;
-			}
-
-		}
-
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
@@ -1224,7 +1190,7 @@ input, select, textarea {
 
 		}
 
-/* Header */
+        /* Header */
 
         #header {
             display: -moz-flex;
@@ -1426,6 +1392,28 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+            html {
+                font-size: 11pt;
+            }
+
+            h1 {
+                font-size: 1.75rem;
+                line-height: 1.4;
+            }
+
+            h2 {
+                font-size: 1.25em;
+                line-height: 1.5;
+            }
+
+			.image.main {
+				margin: 2rem 0;
+			}
+
+			#wrapper {
+				padding: 2rem 1rem;
+			}
 
 			#header > * {
 				margin-top: 2rem;
